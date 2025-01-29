@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Constants.deviceId` API to get a unique device identifier.  Sometimes, the value returned is null or undefined, even on devices that should have a unique identifier. This causes unexpected behavior in applications that rely on this identifier for user authentication or data persistence.
